@@ -1,0 +1,34 @@
+#banner h1{
+  text-align:center;
+  font-family:Verdana;
+  color: #6b90e1;
+  background-color:rgb(255, 255, 255);
+  font-size:67px;
+  padding:67px;
+  border-radius:15px;
+  border:5px solid #42358e;
+}
+a{
+  text-decoration:none;
+  color:#6b90e1;
+  text-shadow:#42358e
+}
+nav{
+  display:flex;
+  background-color:rgb(255, 255, 255);
+  color:white;
+  font-size:58px;
+  font-family:Verdana;
+  border:5px solid #42358e;
+  border-radius:15px;
+}
+.container nav{
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+#here{
+  color:#2c1899
+}
