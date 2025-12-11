@@ -3,24 +3,27 @@
   font-family:Verdana;
   color: #75d26f;
   background-color:rgb(255, 255, 255);
-  font-size:67px;
-  padding:67px;
+  font-size: 48px;
+  padding:45px;
   border-radius:15px;
   border:5px solid #287a37;
 }
 a{
   text-decoration:none;
-  color:#75d26f;
+  color:#8de087;
   text-shadow:#287a37
 }
+a:hover{
+  background-color: #287a37;
+}
 nav{
-  display:flex;
+  display:flexbox;
   background-color:rgb(255, 255, 255);
   color:white;
-  font-size:58px;
+  font-size:34px;
   font-family:Verdana;
-  border:5px solid #287a37;
-  border-radius:15px;
+  border:3px solid #287a37;
+  border-radius:5px;
 }
 .container nav{
   display:flex;
@@ -31,4 +34,23 @@ nav{
 }
 #here{
   color:#2aaa09
+}
+body{
+  background-image:url(https://guidable.co/wp-content/uploads/2022/03/japanese-history.jpg);
+  background-repeat:no-repeat;
+  background-size:1914px;
+}
+h3{
+  align-items: center;
+  color:#8de087;
+  background-color: #fffeda;
+  border: 2px solid #2aaa09;
+  border-radius:7px;
+  font-family:Verdana;
+}
+.container{
+  font-family:Verdana;
+}
+#jomon{
+  display:flex;
 }

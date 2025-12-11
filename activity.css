@@ -1,0 +1,56 @@
+#banner h1{
+  text-align:center;
+  font-family:Verdana;
+  color: #d8c61e;
+  background-color:rgb(255, 255, 255);
+  font-size: 48px;
+  padding:45px;
+  border-radius:15px;
+  border:5px solid #d9c137;
+}
+a{
+  text-decoration:none;
+  color:#b4a419;
+  text-shadow:#d9c137
+}
+nav{
+  display:flex;
+  background-color:rgb(255, 255, 255);
+  color:white;
+  font-size:34px;
+  font-family:Verdana;
+  border:3px solid #d9c137;
+  border-radius:5px;
+}
+.container nav{
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-family:Verdana;
+
+}
+#here{
+  color:#ffd900
+}
+#nav a:hover{
+  background-color: #d9c137;
+}
+body{
+  background-image:url(https://jw-webmagazine.com/wp-content/uploads/2024/05/ShibuyaCrossing-Crowd-min.jpg);
+  background-repeat:no-repeat;
+  background-size:2150px;
+}
+#popup{
+  display:flex;
+  flex:2;
+  color:white;
+}
+h3{
+  border-radius:5px;
+  text-align: center; 
+  color:white; 
+  background-color:#f0d332;
+  border:2px solid white;
+}

@@ -1,16 +1,17 @@
 #banner h1{
+  text-align:center;
   font-family:Verdana;
-  color: #6b90e1;
+  color: #592C63;
   background-color:rgb(255, 255, 255);
-  font-size: 20px;
-  margin:0;
-  padding:10px;
-  border:5px solid #42358e;
+  font-size:48px;
+  padding:45px;
+  border-radius:15px;
+  border:5px solid #4F284B;
 }
 a{
   text-decoration:none;
-  color:#6b90e1;
-  text-shadow:#42358e
+  color:#5a1e67;
+  text-shadow:#583155
 }
 nav{
   display:flex;
@@ -18,11 +19,8 @@ nav{
   color:white;
   font-size:34px;
   font-family:Verdana;
-  border:3px solid #42358e;
+  border:3px solid #481553;
   border-radius:5px;
-}
-a:hover{
-  background-color: #42358e;
 }
 .container nav{
   display:flex;
@@ -32,10 +30,13 @@ a:hover{
   text-align:center;
 }
 #here{
-  color:#6050b8;
+  color:#77118e
 }
 body{
-  background-image:url(https://ychef.files.bbci.co.uk/976x549/p022vjwm.jpg);
+  background-image:url(https://a.cdn-hotels.com/gdcs/production172/d1381/8efd3f69-63bb-4398-a595-095cea25fc37.jpg);
   background-repeat:no-repeat;
-  background-size:1915px;
+  background-size:2000px;
+}
+a:hover{
+  background-color: #481553;
 }
